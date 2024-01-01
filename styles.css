@@ -1,0 +1,92 @@
+/* header */
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    color: #f9faf8;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    color: #e5e7eb;
+    size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+}
+
+/* container */
+
+.first_box {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.big_text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+.para_text {
+    color: #e5e7eb;
+}
+
+.content{
+    width: 400px;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+.main_image {
+    height: 150px;
+    width: 400px;
+    padding-left: 40px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.second_box {
+
+}
+
+.second_box_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_groups{
+    display: flex;
+    width: 100px;
+    height: 140px;
+    gap: 20px;
+}
+
+.img_info{
+    display: flex;
+}
